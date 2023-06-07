@@ -1,0 +1,8 @@
+.App {
+   background-size: cover;
+   height: 100vh; /* Adjust the height as needed */
+   overflow: auto; /* Add scrollbars if the content overflows */
+   /* Other styles for your app */
+   background-repeat: no-repeat; 
+   background: #f0f0f0;
+} 

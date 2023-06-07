@@ -1,0 +1,42 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 30px;
+    background-color: rgba(17, 0, 22, 0.8);
+    border-radius: 20px;
+    padding: 0 10px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    outline: none;
+    /* Add this line to change the input text color */
+    color: #fff;
+  }
+  
+  .search-button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .search-icon {
+    width: 100%;
+    height: 100%;
+    fill: #ff80bf;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .search-icon:hover {
+    opacity: 1;
+  }
